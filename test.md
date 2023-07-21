@@ -5,11 +5,8 @@
 </style>
 
 # Table of contents
-
 ## 1. Introduction
-
 ### 1.1. Import the necessary libraries.
-
 #### 1.2. Load and quickly inspect the two files.
 
 <span style="color: red;">1.3. Create the graph.</span>
