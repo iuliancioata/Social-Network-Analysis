@@ -1,4 +1,4 @@
-_For easier reading, open it in [HTML](https://drive.google.com/uc?export=view&id=1OlXhqBLsATHevFXzxvvI6TybILHI6O74)._
+_For easier reading, open it in [HTML](https://iuliancioata.github.io/Social-Network-Analysis/table-of-contents.html)._
 
 # Table of contents
 ## 1. Introduction
