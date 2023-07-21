@@ -3,4 +3,4 @@ This project aims to analyse the evolution of gender imbalances of a (real) clus
 
 _The **table of contents** is available in [HTML](https://iuliancioata.github.io/Social-Network-Analysis/table-of-contents.html) format._
 
-_The **table of contents** is available in <a href="https://iuliancioata.github.io/Social-Network-Analysis/table-of-contents.html" target="_blank">HTML</a> format._
+_The **table of contents** is available in <span><a href="https://iuliancioata.github.io/Social-Network-Analysis/table-of-contents.html" target="_blank">HTML</a></span> format._
