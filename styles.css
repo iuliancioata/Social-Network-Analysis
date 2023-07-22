@@ -1,44 +1,44 @@
-/* Global styles */
+/* Global style */
+html, body {
+  background: white;
+}
+
+/* Title style */
+.title {
+  font-family: Times New Roman;font-size: 28px;color: blue;font-weight: bold;text-decoration: underline;
+}
+
+/* Heading styles */
 p {
-    font-family: Times New Roman;
-  }
-  
-  /* Title */
-  p.title {
-    font-size: 28px;
-    color: blue;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  
-  /* Header 1 */
-  p.header1 {
-    font-size: 22px;
-    color: navy;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  
-  /* Header 2 */
-  p.header2 {
-    font-size: 20px;
-    color: navy;
-    font-weight: bold;
-  }
-  
-  /* Header 3 */
-  p.header3 {
-    font-size: 18px;
-    color: navy;
-    padding-left: 20px;
-    font-weight: bold;
-  }
-  
-  /* Header 4 */
-  p.header4 {
-    font-size: 16px;
-    color: navy;
-    padding-left: 40px;
-    font-weight: bold;
-    font-style: italic;
-  }
+  background: inherit;margin: 5px auto;position: relative;
+}
+
+p:before {
+  content: '';
+  position: absolute;
+  bottom: 0.2rem;
+  width: 100%;
+  height: 0;
+  border-bottom: 2px dotted;
+}
+
+.header1, .header2, .header3, .header4 {
+  font-family: Times New Roman;color: navy;font-weight: bold;
+  background: inherit;display: inline;z-index: 1;padding-right: .2rem;position: relative;
+}
+
+.header1 {
+  font-size: 22px;text-decoration: underline;
+}
+
+.header2 {
+  font-size: 20px;
+}
+
+.header3 {
+  font-size: 18px;padding-left: 20px;
+}
+
+.header4 {
+  font-size: 16px;padding-left: 40px;font-style: italic;
+}
